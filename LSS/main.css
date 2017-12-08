@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+
+}
+
+.container {
+  width: 800px;
+  min-height: 10000px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.section {
+  width: 100%;
+  height: 2000px;
+}
+
+.background-color-blue { background-color: blue;}
+.background-color-red { background-color: red; }
+.background-color-green { background-color: green; }
+.background-color-pink { background-color: pink; }
+.background-color-yellow { background-color: yellow; }
+
+.stickyHeader {
+  position: fixed;
+  top: -100vh;
+  width: 100%;
+  padding: 16px;
+  background-color: gray;
+  transition: top 1s;
+}
+
+.stickyHeader.shown {
+  top: 0;
+}
+
+.stickyImage {
+  position: fixed;
+  left: calc(50vw - 100px);
+  bottom: calc(50vh - 100px);
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+
+  background-image: url('images/hijab.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.stickyImage.hijab {
+  background-image: url('images/hijab.jpg');
+}
+
+.stickyImage.models {
+  background-image: url('images/models.jpg');
+}
+
+.stickyImage.unedited {
+  background-image: url('images/unedited.jpg');
+}
+
+.stickyImage.editing {
+  background-image: url('images/editing.jpg');
+}
+
+.stickyImage.finalshot {
+  background-image: url('images/finalshot.jpg');
+}
+
+p{
+  margin:auto auto;
+   padding:0;
+   position:relative;
+   bottom:0;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 2em;
+
+
+
+ }
